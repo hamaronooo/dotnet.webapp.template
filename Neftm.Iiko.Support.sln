@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{A31048E4-44F7-4CB9-B352-751BEA084217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{DDA6C906-A85C-4888-BD67-83C2CD057AD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{0E66F80B-3E3D-4178-9C4A-E92994785A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neftm.Iiko.Support.Domain", "src\core\Neftm.Iiko.Support.Domain\Neftm.Iiko.Support.Domain.csproj", "{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neftm.Iiko.Support.Persistence", "src\infrastructure\Neftm.Iiko.Support.Persistence\Neftm.Iiko.Support.Persistence.csproj", "{5C5444B4-58C1-4752-A8A9-3833D1602CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neftm.Iiko.Support.Api", "src\presentation\Neftm.Iiko.Support.Api\Neftm.Iiko.Support.Api.csproj", "{386A0556-A493-4619-8FF6-7C512341A01F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D2380166-9046-4B8E-8F1B-2FD9A502B21C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neftm.Iiko.Support.Domain.Tests", "tests\Neftm.Iiko.Support.Domain.Tests\Neftm.Iiko.Support.Domain.Tests.csproj", "{E0E4D38E-B489-489A-9AE7-00BE27B1D10A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C} = {A31048E4-44F7-4CB9-B352-751BEA084217}
+		{5C5444B4-58C1-4752-A8A9-3833D1602CA9} = {DDA6C906-A85C-4888-BD67-83C2CD057AD4}
+		{386A0556-A493-4619-8FF6-7C512341A01F} = {0E66F80B-3E3D-4178-9C4A-E92994785A0C}
+		{E0E4D38E-B489-489A-9AE7-00BE27B1D10A} = {D2380166-9046-4B8E-8F1B-2FD9A502B21C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D584DE4-5BA2-4EB5-9EE7-5B4EC9A8257C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5444B4-58C1-4752-A8A9-3833D1602CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5444B4-58C1-4752-A8A9-3833D1602CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5444B4-58C1-4752-A8A9-3833D1602CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5444B4-58C1-4752-A8A9-3833D1602CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386A0556-A493-4619-8FF6-7C512341A01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386A0556-A493-4619-8FF6-7C512341A01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386A0556-A493-4619-8FF6-7C512341A01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386A0556-A493-4619-8FF6-7C512341A01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E4D38E-B489-489A-9AE7-00BE27B1D10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E4D38E-B489-489A-9AE7-00BE27B1D10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E4D38E-B489-489A-9AE7-00BE27B1D10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E4D38E-B489-489A-9AE7-00BE27B1D10A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
